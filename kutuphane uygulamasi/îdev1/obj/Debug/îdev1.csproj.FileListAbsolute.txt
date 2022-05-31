@@ -1,0 +1,15 @@
+C:\Users\FATIH\source\repos\ödev1\ödev1\bin\Debug\ödev1.exe.config
+C:\Users\FATIH\source\repos\ödev1\ödev1\bin\Debug\ödev1.exe
+C:\Users\FATIH\source\repos\ödev1\ödev1\bin\Debug\ödev1.pdb
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\ödev1.csproj.AssemblyReference.cache
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\MainWindow.g.cs
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\App.g.cs
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\ödev1_MarkupCompile.cache
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\ödev1_MarkupCompile.lref
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\MainWindow.baml
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\ödev1.g.resources
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\ödev1.Properties.Resources.resources
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\ödev1.csproj.GenerateResource.cache
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\ödev1.csproj.CoreCompileInputs.cache
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\ödev1.exe
+C:\Users\FATIH\source\repos\ödev1\ödev1\obj\Debug\ödev1.pdb

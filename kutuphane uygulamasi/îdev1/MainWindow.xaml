@@ -1,0 +1,30 @@
+﻿ <Window x:Class="ödev1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ödev1"
+        Title="Kütüphane Uygulaması" Height="450" Width="800" Icon="kisspng-library-computer-icons-librarian-reference-work-cl-knowledge-edition-5b5110a0502025.0593241815320393283282.png" ResizeMode="NoResize">
+
+    <Grid Margin="-1,0,1,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="85*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="erkanildiz1007.jpg"/>
+        </Grid.Background>
+        <ComboBox x:Name="ComboBox1" Margin="37,73,89,318">
+            <ComboBoxItem Content="Kavgam - Hitler"/>
+            <ComboBoxItem Content="Kuran-ı Kerim - ALLAH"/>
+            <ComboBoxItem Content="Daha Adil Bir Dünya Mümkün - RTE"/>
+        </ComboBox>
+        <Button x:Name="AddButton" Content="KİTAP EKLE" HorizontalAlignment="Left" Margin="280,73,0,0" VerticalAlignment="Top" Width="85" Height="28" Click="Button_Click" Background="#FFF52121" Foreground="White" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="28" Margin="225,73,0,0" TextWrapping="Wrap" Text="kitap adını giriniz..." VerticalAlignment="Top" Width="125" IsUndoEnabled="False" Grid.ColumnSpan="2"/>
+        <Label Content="Kitaplar" HorizontalAlignment="Left" Margin="77,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="40" Width="92" Background="{x:Null}" FontSize="22" FontWeight="Bold" Foreground="#FFF9F9F9"/>
+        <Label Content="Kitap Adı" HorizontalAlignment="Left" Margin="237,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="40" Width="113" Background="{x:Null}" FontSize="22" FontWeight="Bold" Foreground="#FFF1F1F1" Grid.ColumnSpan="2"/>
+        <Button x:Name="DeleteButton" Content="KİTAP SİL" HorizontalAlignment="Left" Margin="389,73,0,0" VerticalAlignment="Top" Width="85" Height="28" Click="DeleteButton_Click" Background="Red" Foreground="White" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Height="28" Margin="102,73,0,0" TextWrapping="Wrap" Text="Yazar adını giriniz..." VerticalAlignment="Top" Width="146" Grid.Column="1"/>
+        <Label Content="Yazar Adı" HorizontalAlignment="Left" Margin="122,28,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="40" Width="113" Background="{x:Null}" FontSize="22" FontWeight="Bold" Foreground="#FFF1F1F1" Grid.Column="1"/>
+    </Grid>
+
+</Window>
